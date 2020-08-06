@@ -9,8 +9,8 @@
 <body>
   <header>
     <div class="header-menu">
-      <img src="./ycombinator.svg" alt="ycombinator-logo">
-      <h1>Hacker News</h1>
+      <img id="header-logo" src="./ycombinator.svg" alt="ycombinator-logo">
+      <h1 id="header-title">Hacker News</h1>
       <nav>
         <a href="#">new</a>
         <a href="#">past</a>
@@ -21,15 +21,15 @@
         <a href="#">submit</a>
       </nav>
     </div>
-    <div class="header-login">login</div>
+    <div id="header-login"><a href="#">login</a></div>
   </header>
   <main>
-    <ol>
+    <ul>
       <li>
         <div class="news-headline">
-          <div class="news-rank">1.</div>
-          <div class="news-upvote">^</div>
-          <p class="news-title">Germany plans to dim lights to save insects</p>
+          <span class="news-rank">1.</span>
+          <div class="news-upvote"></div>
+          <a href="#" class="news-title">Germany plans to dim lights to save insects</a>
           <a href="#" class="news-source">(msn.com)</a>
         </div>
         <div class="news-bottom">
@@ -40,12 +40,177 @@
           <a href="#" class="news-comments">218 comments</a>
         </div>
       </li>
-    </ol>
+      <li>
+        <div class="news-headline">
+          <div class="news-rank">2.</div>
+          <div class="news-upvote"></div>
+          <a href="#" class="news-title">	Lab mice have a chill, and that may be messing up study results</a>
+          <a href="#" class="news-source">(statnews.com)</a>
+        </div>
+        <div class="news-bottom">
+          <span class="news-points">22 points by</span>
+          <a href="#" class="news-user">tosh</a>
+          <a href="#" class="news-timestamp"> 22 minutes ago</a>
+          <a href="#" class="news-hide">hide</a>
+          <a href="#" class="news-comments">128 comments</a>
+        </div>
+      </li>
+      <li>
+        <div class="news-headline">
+          <div class="news-rank">3.</div>
+          <div class="news-upvote"></div>
+          <a href="#" class="news-title">OpenCore bootloader – open-sourced Apple UEFI drivers, enabling Hackintosh</a>
+          <a href="#" class="news-source">(github.com)</a>
+        </div>
+        <div class="news-bottom">
+          <span class="news-points">12 points by</span>
+          <a href="#" class="news-user">tester</a>
+          <a href="#" class="news-timestamp"> 8 minutes ago</a>
+          <a href="#" class="news-hide">hide</a>
+          <a href="#" class="news-comments">18 comments</a>
+        </div>
+      </li>
+      <li>
+        <div class="news-headline">
+          <span class="news-rank">1.</span>
+          <div class="news-upvote"></div>
+          <a href="#" class="news-title">Germany plans to dim lights to save insects</a>
+          <a href="#" class="news-source">(msn.com)</a>
+        </div>
+        <div class="news-bottom">
+          <span class="news-points">465 points by</span>
+          <a href="#" class="news-user">Shivetya</a>
+          <a href="#" class="news-timestamp"> 3 hours ago</a>
+          <a href="#" class="news-hide">hide</a>
+          <a href="#" class="news-comments">218 comments</a>
+        </div>
+      </li>
+      <li>
+        <div class="news-headline">
+          <div class="news-rank">2.</div>
+          <div class="news-upvote"></div>
+          <a href="#" class="news-title">	Lab mice have a chill, and that may be messing up study results</a>
+          <a href="#" class="news-source">(statnews.com)</a>
+        </div>
+        <div class="news-bottom">
+          <span class="news-points">22 points by</span>
+          <a href="#" class="news-user">tosh</a>
+          <a href="#" class="news-timestamp"> 22 minutes ago</a>
+          <a href="#" class="news-hide">hide</a>
+          <a href="#" class="news-comments">128 comments</a>
+        </div>
+      </li>
+      <li>
+        <div class="news-headline">
+          <div class="news-rank">3.</div>
+          <div class="news-upvote"></div>
+          <a href="#" class="news-title">OpenCore bootloader – open-sourced Apple UEFI drivers, enabling Hackintosh</a>
+          <a href="#" class="news-source">(github.com)</a>
+        </div>
+        <div class="news-bottom">
+          <span class="news-points">12 points by</span>
+          <a href="#" class="news-user">tester</a>
+          <a href="#" class="news-timestamp"> 8 minutes ago</a>
+          <a href="#" class="news-hide">hide</a>
+          <a href="#" class="news-comments">18 comments</a>
+        </div>
+      </li>
+      <li>
+        <div class="news-headline">
+          <span class="news-rank">1.</span>
+          <div class="news-upvote"></div>
+          <a href="#" class="news-title">Germany plans to dim lights to save insects</a>
+          <a href="#" class="news-source">(msn.com)</a>
+        </div>
+        <div class="news-bottom">
+          <span class="news-points">465 points by</span>
+          <a href="#" class="news-user">Shivetya</a>
+          <a href="#" class="news-timestamp"> 3 hours ago</a>
+          <a href="#" class="news-hide">hide</a>
+          <a href="#" class="news-comments">218 comments</a>
+        </div>
+      </li>
+      <li>
+        <div class="news-headline">
+          <div class="news-rank">2.</div>
+          <div class="news-upvote"></div>
+          <a href="#" class="news-title">	Lab mice have a chill, and that may be messing up study results</a>
+          <a href="#" class="news-source">(statnews.com)</a>
+        </div>
+        <div class="news-bottom">
+          <span class="news-points">22 points by</span>
+          <a href="#" class="news-user">tosh</a>
+          <a href="#" class="news-timestamp"> 22 minutes ago</a>
+          <a href="#" class="news-hide">hide</a>
+          <a href="#" class="news-comments">128 comments</a>
+        </div>
+      </li>
+      <li>
+        <div class="news-headline">
+          <div class="news-rank">3.</div>
+          <div class="news-upvote"></div>
+          <a href="#" class="news-title">OpenCore bootloader – open-sourced Apple UEFI drivers, enabling Hackintosh</a>
+          <a href="#" class="news-source">(github.com)</a>
+        </div>
+        <div class="news-bottom">
+          <span class="news-points">12 points by</span>
+          <a href="#" class="news-user">tester</a>
+          <a href="#" class="news-timestamp"> 8 minutes ago</a>
+          <a href="#" class="news-hide">hide</a>
+          <a href="#" class="news-comments">18 comments</a>
+        </div>
+      </li>
+      <li>
+        <div class="news-headline">
+          <span class="news-rank">1.</span>
+          <div class="news-upvote"></div>
+          <a href="#" class="news-title">Germany plans to dim lights to save insects</a>
+          <a href="#" class="news-source">(msn.com)</a>
+        </div>
+        <div class="news-bottom">
+          <span class="news-points">465 points by</span>
+          <a href="#" class="news-user">Shivetya</a>
+          <a href="#" class="news-timestamp"> 3 hours ago</a>
+          <a href="#" class="news-hide">hide</a>
+          <a href="#" class="news-comments">218 comments</a>
+        </div>
+      </li>
+      <li>
+        <div class="news-headline">
+          <div class="news-rank">2.</div>
+          <div class="news-upvote"></div>
+          <a href="#" class="news-title">	Lab mice have a chill, and that may be messing up study results</a>
+          <a href="#" class="news-source">(statnews.com)</a>
+        </div>
+        <div class="news-bottom">
+          <span class="news-points">22 points by</span>
+          <a href="#" class="news-user">tosh</a>
+          <a href="#" class="news-timestamp"> 22 minutes ago</a>
+          <a href="#" class="news-hide">hide</a>
+          <a href="#" class="news-comments">128 comments</a>
+        </div>
+      </li>
+      <li>
+        <div class="news-headline">
+          <div class="news-rank">3.</div>
+          <div class="news-upvote"></div>
+          <a href="#" class="news-title">OpenCore bootloader – open-sourced Apple UEFI drivers, enabling Hackintosh</a>
+          <a href="#" class="news-source">(github.com)</a>
+        </div>
+        <div class="news-bottom">
+          <span class="news-points">12 points by</span>
+          <a href="#" class="news-user">tester</a>
+          <a href="#" class="news-timestamp"> 8 minutes ago</a>
+          <a href="#" class="news-hide">hide</a>
+          <a href="#" class="news-comments">18 comments</a>
+        </div>
+      </li>
+    </ul>
     <span class="news-more">More</span>
   </main>
   <footer>
     <div class="footer-menu">
-      <a href="#">Guidelies</a>
+      <a href="#">Guidelines</a>
       <a href="#">FAQ</a>
       <a href="#">Support</a>
       <a href="#">API</a>
