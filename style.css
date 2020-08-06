@@ -1,0 +1,152 @@
+* {
+	font-family: 'Verdana', sans-serif;
+	margin: 0;
+	padding: 0;
+	outline: 0;
+	box-sizing: border-box;
+}
+
+body {
+	padding: 10px 100px;
+	font-size: 13px;
+}
+
+header {
+	background: #FF6600;
+	padding: 2px;
+}
+
+header, .header-menu {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+#header-logo {
+	width: 22px;
+	border: 1px solid white;
+}
+
+#header-title {
+	font-size: 14px;
+	margin-left: 5px;
+}
+
+header a, footer a{
+	color: #000;
+	text-decoration: none;
+	padding: 0 5px 0 10px;
+}
+
+nav a+a {
+	border-left: 1px solid #000;
+}
+
+#header-login {
+	padding-right: 5px;
+}
+
+main, footer {
+	background: #F6F6EF;
+}
+
+main {
+	padding: 10px;
+}
+
+main ul {
+	list-style: none;
+}
+
+main ul li {
+	margin-bottom: 8px;
+}
+
+.news-headline {
+	display: flex;
+}
+
+.news-headline > * {
+	margin-right: 4px;
+}
+
+.news-upvote {
+	 width: 0; 
+  height: 0; 
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  
+	border-bottom: 5px solid #999999;
+	padding-top: 5px;
+	cursor: pointer;
+}
+
+.news-headline a {
+	color: #000;
+	text-decoration: none;
+}
+
+.news-rank, .news-upvote, .news-headline .news-source  {
+	color: #999999;
+}
+
+.news-source {
+	font-size: 10px;
+}
+
+.news-source:hover {
+	text-decoration: underline;
+}
+
+.news-bottom {
+	margin: 2px 0 0 30px;
+	font-size: 10px;
+}
+
+.news-bottom a {
+	text-decoration: none;
+}
+
+.news-bottom a:hover {
+	text-decoration: underline;
+}
+
+.news-bottom, .news-bottom a {
+	color: #999999;
+}
+
+.news-timestamp, .news-hide {
+	border-right: 1px solid #999999;
+	padding-right: 5px;
+}
+
+.news-more {
+	display: block;
+	margin: 10px 0 0 30px;
+	cursor: pointer;
+}
+
+footer {
+	padding: 20px;
+	border-top: 1.5px solid #FF6600;
+	text-align: center;
+}
+
+.footer-menu a {
+	font-size: 10px;
+}
+
+.footer-menu a+a{
+	border-left: 1px solid #999999;
+}
+
+.footer-searchbar {
+	margin-top: 10px;
+	color: #999999;
+}
+
+.footer-searchbar input {
+	width: 164px;
+	border: 1px solid #A2A2A2;
+	border-radius: 2px;
+}
