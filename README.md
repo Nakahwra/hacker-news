@@ -1,2 +1,2 @@
-# hacker-news-clone
-Recreating Hacker News webpage layout
+# Hacker News Clone
+Cloning the UI from the tech news website: [Hacker News](https://news.ycombinator.com/)
